@@ -28,3 +28,15 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.7
+- serviceName: project.siqa_git_1707.integrations:Call_refData
+  packages:
+  - name: SIQA_GIT_1707Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: project.siqa_git_1707.referencedata:refData
+  packages:
+  - name: SIQA_GIT_1707Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
